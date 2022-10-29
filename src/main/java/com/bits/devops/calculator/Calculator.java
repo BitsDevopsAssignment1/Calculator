@@ -12,7 +12,8 @@ import java.lang.Math;
 
 public class Calculator {
 
-    private static final int WINDOW_WIDTH = 420;
+    private static final int WINDOW_WIDTH = 410;
+
     private static final int WINDOW_HEIGHT = 600;
     private static final int BUTTON_WIDTH = 80;
     private static final int BUTTON_HEIGHT = 70;
@@ -553,7 +554,7 @@ public class Calculator {
                 btnRoot.setBackground(Color.PINK);
                 btnLog.setBackground(Color.PINK);
                 btnPower.setBackground(Color.PINK);
-                btnEqual.setBackground(Color.GRAY); //BLUE
+                btnEqual.setBackground(Color.BLUE); //GRAY
                 btn0.setBackground(Color.WHITE);
                 btn1.setBackground(Color.WHITE);
                 btn2.setBackground(Color.WHITE);
