@@ -552,7 +552,7 @@ public class Calculator {
                 btnRoot.setBackground(Color.PINK);
                 btnLog.setBackground(Color.PINK);
                 btnPower.setBackground(Color.PINK);
-                btnEqual.setBackground(Color.BLUE); //GRAY
+                btnEqual.setBackground(Color.GRAY); //GRAY
                 btn0.setBackground(Color.WHITE);
                 btn1.setBackground(Color.WHITE);
                 btn2.setBackground(Color.WHITE);
