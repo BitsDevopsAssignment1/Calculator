@@ -12,7 +12,7 @@ import java.lang.Math;
 
 public class Calculator {
 
-    private static final int WINDOW_WIDTH = 600;
+    private static final int WINDOW_WIDTH = 420;
 
     private static final int WINDOW_HEIGHT = 600;
     private static final int BUTTON_WIDTH = 80;
