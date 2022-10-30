@@ -1,3 +1,5 @@
 # Intellij
 out/
 *.iml
+.idea/
+target/
