@@ -464,7 +464,10 @@ public class Calculator {
                 return x * y;
             case '/':
                 return x / y;
-
+            case '%':
+                return x % y;
+            case '^':
+                return Math.pow(x,y);
             default:
                 inText.setFont(inText.getFont().deriveFont(Font.PLAIN));
                 return y;
@@ -549,7 +552,7 @@ public class Calculator {
                 btnRoot.setBackground(Color.PINK);
                 btnLog.setBackground(Color.PINK);
                 btnPower.setBackground(Color.PINK);
-                btnEqual.setBackground(Color.GRAY); //GRAY
+                btnEqual.setBackground(Color.BLUE); //GRAY
                 btn0.setBackground(Color.WHITE);
                 btn1.setBackground(Color.WHITE);
                 btn2.setBackground(Color.WHITE);
